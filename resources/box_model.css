@@ -1,0 +1,53 @@
+/* 
+High contrast green, accent 1: #2E8826
+High contrast purple, accent 2: #802688
+*/
+
+body {
+	background-color: #FFFFFF;
+	padding: 12px;
+}
+
+
+h1 {
+	color: #2E8826;
+	text-align: center;
+}
+
+th, td {
+	border: #802688 solid 3px;
+	padding: 5px;
+}
+
+table{
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a:hover{
+	color: #802688;
+}
+
+a{
+	color: #2E8826;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+p.text{
+	color: #FFFFFF;
+	background-color: #2E8826;
+	width: 350px;
+	padding: 12px;
+	border: #802688 dotted 5px;
+	margin: 12px;
+}
+
+div{
+	background-color: #2E8826;
+	width: 646px;
+	padding: 12px;
+	border: #802688 dashed 8px;
+	margin: 12px;
+}
